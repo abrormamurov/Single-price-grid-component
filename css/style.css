@@ -1,0 +1,208 @@
+/* karla-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/karla-v31-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* karla-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/karla-v31-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #9aa7be;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e6eff5;
+}
+
+.card {
+  width: 635px;
+  height: 475px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+}
+.card__title {
+  color: #2ab3b1;
+  font-family: Karla;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 24px;
+}
+.card__description {
+  color: #c0df33;
+  font-family: Karla;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.225px;
+  padding-left: 40px;
+  padding-bottom: 11px;
+}
+.card__text {
+  color: #9aa7be;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.2px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  width: 555px;
+}
+
+.card__main-full {
+  display: flex;
+}
+
+.card__main {
+  width: 317px;
+  height: 259px;
+  flex-shrink: 0;
+  display: flex;
+  background: #2ab3b1;
+}
+.card__main-one {
+}
+.card__main-title {
+  color: #fff;
+  font-family: Karla;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.225px;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 18px;
+}
+.card__main-price {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  padding-bottom: 4px;
+}
+.card__main-big-price {
+  color: #fff;
+  font-family: Karla;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  padding-left: 40px;
+}
+.card__main-mini-price {
+  color: #fff;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.2px;
+  opacity: 0.5;
+}
+.card__main-text {
+  color: #fff;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.2px;
+  padding-left: 40px;
+  padding-bottom: 26px;
+}
+.card__main-link {
+  background-color: #c0df33;
+  width: 236px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+.card__main-link-t {
+  color: #fff;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+.card__main-2 {
+  width: 318px;
+  height: 259px;
+  flex-shrink: 0;
+  background: #2ab3b1;
+}
+.card__main-2-title {
+  color: #fff;
+  font-family: Karla;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.225px;
+  padding-left: 35px;
+  padding-top: 40px;
+  padding-bottom: 18px;
+}
+.card__main-2-text {
+  color: #fff;
+  font-family: Karla;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.175px;
+  padding-left: 35px;
+  width: 238px;
+  height: 140px;
+  opacity: 0.75;
+}
